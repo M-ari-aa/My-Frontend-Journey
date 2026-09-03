@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(25, 240, 25);
+        }
+        .sub{
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 30px;
+            border: 2px solid black;
+            
+         }
+         h1{
+            color: green;
+            text-align: center;
+            
+         }
+        label{
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            }
+        input{
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 6px;
+        }
+        button{
+            background-color: green;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: none;
+        }
+        select{
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        option{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sub">
+        <h1>Survey Form</h1>
+        
+        <form action="">
+            <label for="name">Name</label> <br>
+            <input type="text" name="name" id="name" placeholder=""> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" placeholder=""> <br>
+
+            <label for="age">Age</label> <br>
+            <input type="number" name="age" id="age" placeholder=""> <br>
+
+            <label for="ques">Which option best describes you ?</label> <br>
+            <select> 
+                <option>Student</option>
+                <option>Intern</option>
+                <option>Employee</option>
+                <option>Other</option>
+            </select> <br>
+            
+
+            <label for="ques1">Would you recommend us ?</label> <br>
+            <input type="radio" name="ques1" id="yes">
+
+            <label for="yes">Yes</label> <br>
+            <input type="radio" name="ques1" id="no"> 
+
+            <label for="no">No</label> <br>
+            <input type="radio" name="ques1" id="maybe">
+
+            <label for="maybe">Maybe</label> <br>
+
+            <label for="ques2">Languages known</label> <br>
+            <input type="checkbox" name="ques2" id="C">
+
+            <label for="c">C</label> <br>
+            <input type="checkbox" name="ques2" id="C++">
+
+            <label for="c++">C++</label> <br>
+            <input type="checkbox" name="ques2" id="Java">
+
+            <label for="java">Java</label> <br>
+            <input type="checkbox" name="ques2" id="python">
+
+            <label for="python">Python</label> <br>
+            <input type="checkbox" name="ques2" id="Javascript">
+
+            <label for="javascript">Javascript</label> <br>
+            <input type="checkbox" name="ques2" id="react">
+
+            <label for="react">React</label> <br>
+            
+            <button>submit</button>
+            
+        </form>
+
+
+    </div>
+</body>
+</html>
