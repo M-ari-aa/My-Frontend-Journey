@@ -1,0 +1,24 @@
+h1{
+    color: red;
+    font-family: "Caacupe One", sans-serif;
+}
+.music{
+    font-size: 50px;
+    color: violet;
+}
+.heart{
+    color: red;
+    font-size: 50px;
+}
+.save{
+    color: gray;
+    font-size: 60px;
+}
+p{
+    font-family: "Playwrite BR Guides", cursive;
+    color: brown;
+}
+h2{
+    font-family: "Dancing Script", cursive;
+    color: blueviolet;
+}
