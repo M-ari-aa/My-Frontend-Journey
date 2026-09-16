@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 80px;
+            height: 80px;
+            position: relative;
+            animation: move 5s infinite;
+        }
+        .box1{
+            background-color: cyan;
+            animation-delay: 0s;
+            
+           
+        }
+        .box2{
+            background-color: darkturquoise;
+            animation-delay: 1s;
+          
+            
+        }
+        .box3{
+            background-color: darkcyan;
+            animation-delay: 2s;
+            
+            
+        }
+        @keyframes move {
+            from{
+                left: 0;    
+            }
+            to{
+                left: 400px;
+            }  
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div> <br>
+    <div class="box box2"></div> <br>
+    <div class="box box3"></div>
+    
+</body>
+</html>
