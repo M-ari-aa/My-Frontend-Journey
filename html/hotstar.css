@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+.logo{
+    background-color: black;
+
+}
+h1{
+    font-size: 60px;
+    margin-top: 30px;
+}
+.img1{
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.main{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    gap: 40px;
+    color: white;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 20px;
+}
+.card:hover{
+    background-color: rgba(128, 128, 128, 0.348);
+    border-radius: 70px;
+}
